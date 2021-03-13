@@ -1,4 +1,5 @@
-﻿using System;
+﻿using countRectangles.Classes;
+using System;
 
 namespace countRectangles
 {
@@ -6,7 +7,7 @@ namespace countRectangles
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Menu.DisplayMenu();
         }
     }
 }
